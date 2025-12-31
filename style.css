@@ -747,3 +747,57 @@ a {
     right: 1em;
   }
 }
+
+
+.search-popup .search-form button {
+  top: 12px;
+  right: 15px;
+}
+.search-popup .search-form button svg {
+  height: 28px;
+  width: 28px;
+}
+
+
+/* Swiper */
+/* - Swiper Slide Arrows 1
+------------------------------------------------------------- */
+.icon-arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 2em;
+  color: var(--dark-color);
+  z-index: 8;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: opacity 0.3s ease-out;
+}
+
+.icon-arrow:hover {
+  opacity: 1;
+}
+
+.icon-arrow.icon-arrow-left {
+  left: 30px;
+}
+
+.icon-arrow.icon-arrow-right {
+  right: 30px;
+}
+
+@media (max-width: 991px) {
+  .icon-arrow.icon-arrow-left,
+  .icon-arrow.icon-arrow-right {
+    display: none;
+  }
+  .swiper-pagination {
+    position: relative;
+  }
+}
