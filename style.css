@@ -592,7 +592,7 @@ a {
 ** Search Popup
 --------------------------------------------------------------*/
 .search-popup {
-  background-color: #fff;
+  background-color: #d4c2c2;
   position: fixed;
   left: 0;
   top: 0;
@@ -694,7 +694,7 @@ a {
   position: relative;
 }
 .search-popup .cat-list-item a::after {
-  background: none repeat scroll 0 0 #fff;
+  background: none repeat scroll 0 0 #d4c2c2;
   content: "";
   height: 1px;
   border-bottom: 1px solid #ff9697;
